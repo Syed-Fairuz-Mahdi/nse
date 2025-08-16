@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body
+{
+    background-image: url("C:/Users/fairu/OneDrive/Documents/Web Design/PROJECTS/NSE website/background2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo
+{
+    margin-left: 130px;
+    display: flex;
+    white-space: nowrap;
+}
+
+.header
+{
+    color: rgb(250, 216, 0);
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+.navbar
+{
+    background-color: rgba(8, 0, 0, 0.80);
+    width: 100%;
+    height: 450px;
+}
+.navbar:hover
+{
+    background-color: rgba(8, 0, 0, 0.80);
+}
+
+.menubar
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menubar a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 59, 59);
+    margin: 10px;
+}
+
+.menubar a:hover
+{
+    color: rgb(26, 208, 196);
+}
+
+/* navbar ends here */
+
+/* Welcome starts here */
+
+.welcome
+{
+
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.welcome_msg
+{
+    margin-top: 500px;
+    
+}
+
+.welcome h2
+{
+    font-size: 3rem;
+    font-family: "Merriweather";
+    color: rgb(254, 254, 254);
+}
+.welcome h1
+{
+    font-size: 3rem;
+    font-family: "Merriweather";
+    color: rgb(251, 85, 8);
+}
+.welcome p
+{
+    font-size: 1.2rem;
+    font-family: "Pacifico";
+    color: rgb(233, 226, 213);
+}
+
+/* welcome ends here */
+
+/* Courses start here */
+
+.course
+{
+    color:white;
+    margin: 20px;
+}
+.course h1
+{
+    font-size: 3rem;
+}
+.course p
+{
+    font-size:1.5rem;
+    margin-top: 9px;
+}
+.course .btn
+{
+    height:50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+.btn:hover
+{
+    background-color: rgb(45, 185, 181);
+    color: white;
+}
+.course a
+{
+    text-decoration: none;
+}
+
+.btn p
+{
+    font-size: 1.2rem;
+}
+
+/* course ends here */
+
+/* CATSstarts here */
+
+.CATS
+{
+    color:white;
+    margin: 20px;
+}
+.CATS h1
+{
+   font-size: 3rem; 
+}
+
+.CATS p
+{
+    font-size:1.5rem;
+}
+
+.CATS li
+{
+    font-size:1.5rem;
+    color: rgb(14, 244, 14);
+}
+
+.CATS .btn
+{
+    height:50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.CATS button p
+{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* CATS ends here */
+
+/* research starts here */
+
+.research
+{
+    color:white;
+    margin: 20px;
+}
+.research h1
+{
+    font-size: 3rem;
+}
+.research_box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.research_item
+{
+    display: flex;
+    flex: 1 1 calc(45%);
+}
+.research_box img
+{
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.research_box img:hover
+{
+    box-shadow:  0px 0px 20px 20px black;
+    cursor: pointer;
+}
+.research a
+{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.research a:hover
+{
+    color: orange;
+}
+
+
+/* research ends here */
+/* clubs starts here */
+
+.club
+{
+    color:white;
+    margin: 20px;
+}
+.club h1
+{
+    font-size: 3rem;
+}
+.club p
+{
+    font-size:1.5rem;
+}
+.club h4
+{
+    font-size: 2rem;
+    color: greenyellow;
+}
+.club button
+{
+    height:50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+.club button a
+{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.club button:hover
+{
+    background-color: rgb(13, 152, 167);
+    color: white;
+}
+
+/* club ends here */
+/* footer starts here */
+
+.footer
+{
+    background-color: rgb(10, 2, 2, 0.8);
+    color:white;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+}
+.footer p
+{
+    text-align: center;
+}
+
+.footer .btn
+{
+    border-radius: 100px;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/**** Here Homepage ends.... Now staring other pages****/
+
+
+/* course page starts here */
+
+.courses
+{
+    color:white;
+    margin: 20px;
+}
+.courses h1
+{
+    font-size: 3rem;
+}
+
+/* table starts here */
+
+        table
+        {
+            margin: 0 auto;
+        }
+        table,tr,td,th
+        {
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 50px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        .head
+        {
+            background-color: rgb(26, 120, 48);
+        }
+        tr:nth-child(odd)
+        {
+            background-color: rgb(46, 173, 184, 0.9);
+        }
+        tr:nth-child(even)
+        {
+            background-color: rgb(226, 232, 223, 0.9);
+        }
+        td
+        {
+            text-align: center;
+            color: rgb(21, 3, 23);
+        }
+        tr:hover
+        {
+            background-color: orange;
+        }        
+
+/**table ends**/
+/**courses page ends**/
+
